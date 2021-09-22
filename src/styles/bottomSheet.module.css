@@ -1,0 +1,66 @@
+.bottomSheetContainer {
+  background-color: white;
+  border-radius: 1.5em 1.5em 0 0;
+  position: relative;
+  padding: 1.5em 1em;
+  height: 100%;
+}
+
+.switch_line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 35px;
+  background-color: #ccc;
+}
+.myAddBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.addTopicBtn {
+  background-color: transparent;
+  border: none;
+  color: #28ae61;
+}
+.selectRoom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 0;
+  border: 1px solid #ccc;
+}
+.selectRoom button {
+  border: none;
+  background-color: transparent;
+  border-radius: 1em;
+  padding: 0.5em 1.3em 0.2em 1.3em;
+  line-height: 1.2;
+  color: var(--textColor);
+}
+.selectRoom button.active {
+  border: 1px solid lightseagreen;
+  background-color: lightblue;
+}
+.selectRoom button div {
+  background-color: lightseagreen;
+  border-radius: 1.5em;
+}
+.selectRoom button svg {
+  font-size: 4em;
+}
+.bottomSheetContainer p {
+  font-size: 1em;
+  color: var(--textColor);
+  text-align: center;
+  font-size: 700;
+}
+.letGoBtn {
+  border-radius: 2em;
+  font-size: 1.3em;
+  border: none;
+  background-color: white;
+  padding: 0.3em 2em;
+  text-align: center;
+}

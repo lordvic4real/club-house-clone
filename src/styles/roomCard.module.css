@@ -16,3 +16,29 @@
   line-height: 1;
   color: black;
 }
+.roomMembers img {
+  width: 35px;
+  height: 35px;
+  border-radius: 0.654em;
+  object-fit: cover;
+}
+.roomMembers {
+  display: flex;
+  align-items: flex-start;
+}
+.roomMembers p {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  line-height: 1;
+  color: var(--textColor);
+}
+.roomMembers > div:first-child {
+  position: relative;
+  margin-right: 2em;
+}
+.roomMembers > div:first-child > img:nth-child(2) {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}

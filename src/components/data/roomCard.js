@@ -28,8 +28,8 @@ export const data = [
     subtitle: "Calvin Harris x Email Nava on Good Time Show ",
     members: [
       {
-        first_name: "John ",
-        last_name: "Pogba",
+        first_name: "Harry ",
+        last_name: "Kane",
       },
       {
         first_name: "Steven",
@@ -52,11 +52,11 @@ export const data = [
     members: [
       {
         first_name: "John ",
-        last_name: "Pogba",
+        last_name: "Terry",
       },
       {
-        first_name: "Steven",
-        last_name: "krisnan",
+        first_name: "Andreas",
+        last_name: "kristiansen",
       },
       {
         first_name: "Amarty",
