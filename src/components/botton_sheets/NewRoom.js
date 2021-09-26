@@ -50,7 +50,7 @@ export default function NewRoom(props) {
                 ) : (
                   ""
                 )}
-                <img src="/images/groomsmen-2.jpg" />
+                <img src="/images/groomsmen-2.jpg" alt="" />
                 <p>
                   {" "}
                   <span>*</span>

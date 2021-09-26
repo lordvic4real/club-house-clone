@@ -13,7 +13,7 @@ export default function StartRoom(props) {
       </div>
       <div className={style.selectRoom}>
         <button
-          className={room == "open" ? style.active : ""}
+          className={room === "open" ? style.active : ""}
           onClick={() => setRoom("open")}
         >
           <div>
