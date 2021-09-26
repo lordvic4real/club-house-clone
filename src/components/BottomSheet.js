@@ -10,10 +10,10 @@ export default function BottomSheet(props) {
       <SwipeapleBottomSheet
         open={props.sheetVisible}
         onChange={() => {
-          props.setSheetVisible(!props.sheetVisible);
+          props.setSheetVisible(!props.setsheetVisible);
           props.setItemVisible(true);
         }}
-        fullScreen={props.sheetTitle == "Room detail" ? true : false}
+        fullScreen={props.sheetTitle == "room detail" ? true : false}
       >
         <div
           className={style.BottomSheetContainer}
@@ -21,15 +21,15 @@ export default function BottomSheet(props) {
             backgroundColor: props.sheetTitle == "profile" ? "transparent" : "",
           }}
         >
-          {props.sheetTitle == "new room" ? (
+          {props.sheetTitle === "new room" ? (
             <NewRoom
               cardDetail={props.cardDetail}
               setSheetVisible={(item) => {
                 props.setSheetVisible(item);
-                props.setItemVisible(true);
+                props?.setItemVisible(true);
               }}
             />
-          ) : props.sheetTitle == " start room" ? (
+          ) : props.sheetTitle === " start room" ? (
             <StartRoom
               setSheetCreateRoom={props.setSheetCreateRoom}
               setSheetVisible={(item) => {

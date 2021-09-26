@@ -1,5 +1,6 @@
 import Welcome from "./pages/Welcome";
 import "./App.css";
+import "antd/dist/antd.css";
 import PlanLayout from "./pages/layout/PlanLayout";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PhoneConfirmation from "./pages/PhoneConfirmation";
@@ -7,6 +8,8 @@ import CodeConfirm from "./pages/CodeConfirm";
 import AllowNotification from "./pages/AllowNotification";
 import AppLayout from "./pages/layout/AppLayout";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -25,10 +28,12 @@ function App() {
             <Route path="/allow_notification" component={AllowNotification} />
           </Switch>
         </PlanLayout>
-        <Route exact path={["/home"]}>
+        <Route exact path={["/home", "/explore", "/profile"]}>
           <AppLayout>
             <Switch>
               <Route exact path="/home" component={() => <Home />} />
+              <Route exact path="/explore" component={() => <Explore />} />
+              <Route exact path="/profile" component={Profile} />
             </Switch>
           </AppLayout>
         </Route>

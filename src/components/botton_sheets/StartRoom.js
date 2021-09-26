@@ -42,11 +42,11 @@ export default function StartRoom(props) {
         </button>
       </div>
       <p>
-        Start a room,{" "}
+        Start a room{" "}
         <span>
-          {room == "closed"
+          {room === "closed"
             ? "for people i choose"
-            : room == "social"
+            : room === "social"
             ? "with people i follow"
             : "open for everyone"}
         </span>

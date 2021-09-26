@@ -31,7 +31,7 @@ export default function Home() {
             alignItems: "center",
           }}
         >
-          <img src="/images/loader.gif" alt />
+          <img src="/images/loader.gif" alt="" width="100" />
         </div>
       ) : (
         ""

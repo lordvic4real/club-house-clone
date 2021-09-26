@@ -1,0 +1,54 @@
+{
+  "people": [
+    {
+      "title": "  CEO and founder, local laboratory.",
+      "description": "founder @adrinkaus /twiter @helena"
+    },
+    {
+      "title": "Helena price Hambrecht",
+      "description": "founder @adrinkaus /twiter @helena"
+    },
+    {
+      "title": "James Cham",
+      "description": "Ventures capital saas,dtc, AI"
+    }
+  ],
+  "conversation": [
+    {
+      "title": "Tech",
+      "description": "Ventures capital saas,dtc, AI"
+    },
+    {
+      "title": "nature",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "football",
+      "description": "chelsea, man city, AI"
+    },
+    {
+      "title": "Education",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "faith",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "Science",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "Politics",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "Hustle",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    },
+    {
+      "title": "World Affair",
+      "description": "mountain. oceania capital saas,dtc, AI"
+    }
+  ]
+}

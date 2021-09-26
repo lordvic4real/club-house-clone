@@ -1,0 +1,126 @@
+.exploreContainer {
+  padding: 0 1em;
+  height: 100%;
+  overflow: auto;
+  padding-top: 5.2em;
+}
+.exploreContainer h6 {
+  font-size: 0.954em;
+  text-transform: uppercase;
+  color: #bbb;
+  margin: 1.5em 0 1.5em 0;
+  font-weight: 500;
+}
+.showMore {
+  display: flex;
+  align-items: center;
+  bottom: -14px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f4f4f4 !important;
+  border: none !important;
+  color: #aaa !important;
+  box-shadow: 0px 2px 3px #ccc;
+  border-radius: 0.21em;
+  font-weight: 500 !important;
+}
+.showMore span {
+  margin-top: 0.4em;
+  font-size: 0.77em;
+  margin-left: 0.5em;
+}
+.peopleContainer {
+  background-color: white;
+  padding: 0.5em 0.5em 1.5em 0.5em;
+  margin: 0 -0.5em;
+  position: relative;
+}
+.peopleContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0.5em 0;
+}
+.peopleContainer h5 {
+  color: var(--textColor);
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+.peopleContainer p {
+  color: var(--textColor);
+  font-size: 0.9em;
+  display: block;
+  width: 173px;
+  height: fit-content;
+  display: -webkit-box;
+  line-height: 1.33;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #aaa;
+}
+.peopleContainer button {
+  background-color: transparent;
+  border: 2px solid var(--bgColor);
+  border-radius: 2em;
+  color: var(--bgColor);
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0.1em 1.2em;
+}
+.conversationCard {
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  box-shadow: 0 2px 3px #ccc;
+}
+.conversationCard h6 {
+  display: flex;
+  color: var(--textColor);
+  font-size: 1em;
+  margin: 0;
+  align-items: center;
+}
+.conversationCard h6 span {
+  margin-right: 0.2em;
+}
+.conversationCard h6 p {
+  margin: 0;
+  color: #aaa;
+  line-height: 1;
+  font-size: 0.8em;
+}
+.head img {
+  width: 25px;
+  position: absolute;
+
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.head {
+  text-align: center;
+  padding: 0.3em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.head h3 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.peopleContainer img {
+  border-radius: 1.1em;
+  width: 40px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #f2f0e4;
+  padding: 0.5em;
+  z-index: 5;
+}
