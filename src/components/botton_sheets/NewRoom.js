@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "../../styles/roomDetail.module.css";
 import { AiOutlineFile, AiOutlinePlus } from "react-icons/ai";
 import { BsMicMuteFill, BsMicFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function NewRoom(props) {
   const [micMuteVisible, setMicMuteVisible] = useState();
