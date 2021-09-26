@@ -7,7 +7,7 @@ export default function SubHeader(props) {
     <>
       <div className={style.head}>
         <Link to="/home">
-          <img src="/images/back-arrow.png" />
+          <img src="/images/back-arrow.png" alt="" />
         </Link>
         <h3>{props.pageTitle}</h3>
       </div>

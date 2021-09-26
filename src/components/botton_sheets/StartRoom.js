@@ -23,7 +23,7 @@ export default function StartRoom(props) {
         </button>
 
         <button
-          className={room == "social" ? style.active : ""}
+          className={room === "social" ? style.active : ""}
           onClick={() => setRoom("social")}
         >
           <div>
@@ -32,7 +32,7 @@ export default function StartRoom(props) {
           Social
         </button>
         <button
-          className={room == "closed" ? style.active : ""}
+          className={room === "closed" ? style.active : ""}
           onClick={() => setRoom("closed")}
         >
           <div>

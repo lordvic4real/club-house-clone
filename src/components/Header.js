@@ -7,20 +7,20 @@ export default function Header() {
     <>
       <div className={style.header}>
         <Link exact to="/explore">
-          <img src="/images/sch.png" alt />
+          <img src="/images/sch.png" alt="" />
         </Link>
         <div className={style.nav_items}>
           <Link exact to="/friends_invite">
-            <img src="/images/finvite.png" alt />
+            <img src="/images/finvite.png" alt="" />
           </Link>
           <Link exact to="/upcoming">
-            <img src="/images/calender.png" alt />
+            <img src="/images/calender.png" alt="" />
           </Link>
           <Link exact to="/activity">
-            <img src="/images/bell.png" alt />
+            <img src="/images/bell.png" alt="" />
           </Link>
           <Link exact to="/profile">
-            <img src="/images/avatar.png" alt />
+            <img src="/images/avatar.png" alt="" />
           </Link>
         </div>
       </div>

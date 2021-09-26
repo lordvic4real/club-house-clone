@@ -13,12 +13,13 @@ export default function BottomSheet(props) {
           props.setSheetVisible(!props.setsheetVisible);
           props.setItemVisible(true);
         }}
-        fullScreen={props.sheetTitle == "room detail" ? true : false}
+        fullScreen={props.sheetTitle === "room detail" ? true : false}
       >
         <div
           className={style.BottomSheetContainer}
           style={{
-            backgroundColor: props.sheetTitle == "profile" ? "transparent" : "",
+            backgroundColor:
+              props.sheetTitle === "profile" ? "transparent" : "",
           }}
         >
           {props.sheetTitle === "new room" ? (

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import style from "../styles/roomCard.module.css";
 import { data } from "./data/roomCard";
 import { BsChatDots, BsChatDotsFill, BsFillPersonFill } from "react-icons/bs";
 
-export default function RoomInfoCard(props) {
+export default function RoomInfoCard() {
   return (
     <>
       <h1>hello</h1>
@@ -16,8 +16,8 @@ export default function RoomInfoCard(props) {
                 <h2>{item.subtitle}</h2>
                 <div className={style.roomMembers}>
                   <div>
-                    <img src="/images/groomsmen-2.jpg" alt />
-                    <img src="/images/groomsmen-3.jpg" alt />
+                    <img src="/images/groomsmen-2.jpg" alt="" />
+                    <img src="/images/groomsmen-3.jpg" alt="" />
                   </div>
                   <div>
                     {item.members.map((person) => (

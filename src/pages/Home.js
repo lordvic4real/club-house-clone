@@ -10,11 +10,11 @@ import { data } from "../components/data/roomCard";
 import { newRoomData } from "../components/data/newRoomData";
 
 export default function Home() {
-  const [itemVisible, setItemVisible] = useState(true);
+  const [, setItemVisible] = useState(true);
   const [sheetVisible, setSheetVisible] = useState(false);
   const [sheetCreateRoom, setSheetCreateRoom] = useState(false);
   const [loaderVisibility, setLoaderVisibility] = useState(false);
-  const [cardId, setCardId] = useState(1);
+  const [cardId] = useState(1);
 
   return (
     <>
@@ -55,7 +55,7 @@ export default function Home() {
         setSheetVisible={(item) => setSheetVisible(item)}
         sheetVisible={sheetVisible}
         cardDetail={data.find((item) => item.id == cardId)}
-        setItemVisible={(item) => setItemVisible(item)}
+        setItemsVisible={(item) => setItemVisible(item)}
         setSheetCreateRoom={(item) => {
           setLoaderVisibility(true);
           setTimeout(() => {
@@ -68,6 +68,7 @@ export default function Home() {
         sheetTitle="new room"
         setSheetVisible={(item) => setSheetVisible(item)}
         sheetVisible={sheetCreateRoom}
+        setItemsVisible={(item) => setItemVisible(item)}
         cardDetail={newRoomData}
       />
     </>
