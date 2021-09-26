@@ -13,8 +13,8 @@ export default function NewRoom(props) {
       <div className={style.roomDataContainer}>
         <div className={style.head}>
           <div className="d-flex align-items-center">
-            <a
-              href="#"
+            <Link
+              to="/home"
               onClick={() => {
                 props.setSheetVisible(false);
               }}
@@ -24,7 +24,7 @@ export default function NewRoom(props) {
                 alt=""
                 className={style.arrow_icon}
               />
-            </a>
+            </Link>
             <span>Hallway</span>
           </div>
           <div>

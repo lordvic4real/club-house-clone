@@ -21,6 +21,7 @@ export default function Profile() {
             <img
               src="/images/back-arrow.png"
               className={exploreStyle.arrow_icon}
+              alt=""
             />
           </Link>
           <div className={style.actionBtn}>

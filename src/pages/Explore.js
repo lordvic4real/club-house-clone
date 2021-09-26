@@ -22,7 +22,7 @@ export default function Explore() {
             }}
             placeholder="find people and clubs"
             size="large"
-            prefix={<img src="/images/search.png" width="15px" />}
+            prefix={<img src="/images/search.png" width="15px" alt="" />}
           ></Input>
         </div>
         <h6>People to Follow</h6>
